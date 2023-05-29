@@ -59,7 +59,11 @@ public class HelloActionSupport extends ActionSupport {
         this.listProduct.add(new Product("003", "Rog 3 siêu cấp vip pro", 89.99));
         this.listProduct.add(new Product("004", "Rog 5 siêu cấp vip pro", 99.99));
         this.listProduct.add(new Product("005", "Rog 6 siêu cấp vip pro", 109.99));
-
+           
+        
+        
+        
+        
         return "fail";
     }
     

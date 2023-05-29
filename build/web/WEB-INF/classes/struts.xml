@@ -22,5 +22,9 @@
             <result name="input">register.jsp</result>
             <result name="success">information.jsp</result>
         </action>
+        <action name="forgot" class="controller.ForgotActionSupport">
+            <result name="success">index.jsp</result>
+            <result name="fail">forgot.jsp</result>
+        </action>
     </package>
 </struts>

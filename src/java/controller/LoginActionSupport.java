@@ -31,6 +31,8 @@ public class LoginActionSupport extends ActionSupport {
     }
     
     public String execute() throws Exception {
+        getUsername();
+        getPassword();
         String result = "";
         if (this.username.equals("admin") && this.password.equals("admin")) {
             result = "success";

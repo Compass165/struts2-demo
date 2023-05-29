@@ -64,7 +64,7 @@ public class HelloActionSupport extends ActionSupport {
         
         
         
-        return "fail";
+        return "success";
     }
     
 }

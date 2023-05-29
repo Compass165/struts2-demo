@@ -15,5 +15,7 @@
         <s:a href="demo/login.jsp">Login</s:a>
         <br>
         <s:a href="demo/register.jsp">Register</s:a>
+        <br>
+        <s:a href="demo/forgot.jsp">forgot</s:a>
     </body>
 </html>
